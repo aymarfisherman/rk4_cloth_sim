@@ -30,7 +30,7 @@ lens = PerspectiveLens()
 slight.setLens(lens)
 slnp = render.attachNewNode(slight)
 render.setLight(slnp)
-slnp.setPos(150, -150, 50)
+slnp.setPos(150, -80, 50)
 slnp.lookAt(0, 0, 0)
 
 #Cloth data
